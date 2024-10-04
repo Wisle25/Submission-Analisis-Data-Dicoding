@@ -132,17 +132,12 @@ elif options == 'Perbandingan Pengguna':
 
 # Rekomendasi
 st.sidebar.markdown('---')
-if st.sidebar.button('Tampilkan Rekomendasi'):
-    st.header('Rekomendasi')
+if st.sidebar.button('Tampilkan Tindakan Lanjutan'):
+    st.header('Tindakan Lanjutan')
     st.markdown("""
-    **Berdasarkan analisis yang telah dilakukan, berikut adalah beberapa rekomendasi:**
+    ** Tindakan lanjutan berdasarkan hasil analisis data**
 
-    - **Perencanaan Operasional:**
-        - Menyesuaikan ketersediaan sepeda pada jam-jam puncak (pagi dan sore hari) terutama pada hari kerja.
-        - Mengantisipasi peningkatan permintaan pada suhu yang lebih tinggi.
-    - **Strategi Pemasaran:**
-        - Meningkatkan promosi pada musim dingin atau suhu rendah untuk mendorong penggunaan.
-        - Menargetkan pengguna kasual untuk dikonversi menjadi pengguna terdaftar melalui program loyalitas atau insentif.
-    - **Pengembangan Layanan:**
-        - Mempertimbangkan ekspansi layanan mengingat pertumbuhan penggunaan yang signifikan.
+    1. Memaksimalkan ketersediaan sepeda pada jam-jam puncak dan musim dengan penggunaan tinggi.
+    2. Meningkatkan promosi pada dan inovasi pada musim dingin untuk meningkatkan penggunaan.
+    3. Membuat semacam program untuk menarik pengguna casual menjadi pelanggan (registered)
     """)
